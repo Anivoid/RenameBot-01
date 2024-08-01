@@ -26,9 +26,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "27526328")
-    API_HASH  = os.environ.get("API_HASH", "db231e73712db0b6397f624a75a760f8")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7078733312:AAHNtp6g0hGCKCLkYJakv0oR5Qc5iJxoKGo") 
+    API_ID    = os.environ.get("API_ID", "25224361")
+    API_HASH  = os.environ.get("API_HASH", "4074d8747b8f428c1a203bbab64479ce")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7236323449:AAGnaSo1yutsM6PpsK7uTKUIoTJ-prJDBDA") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
@@ -37,9 +37,9 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/e4afa0fcf5e17117db79f.png")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1582227872 6095034047').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7102263732 1582227872 6095034047').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "haniflix_verse") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001941319109"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001941319109")) 
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
@@ -59,7 +59,7 @@ class Txt(object):
     ILLEGAL_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴏᴜʀ ᴀʟʟ ʙᴏᴛ ʟɪꜱᴛ</b>"""
     
     ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : [@haniflixrenamebot](https://t.me/haniflixrenamebot)
+├🤖 ᴍy ɴᴀᴍᴇ : [@Renameflixbot](https://t.me/@Renameflixbot)
 ├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/Ariesaep>**Akki**</a> 🕷
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : **Akki**
 ╰───────────────⍟ </b>"""
