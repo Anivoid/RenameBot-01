@@ -85,12 +85,12 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ʙᴏᴛ¹", url="https://t.me/lucy_filter_bot"),
-                InlineKeyboardButton("ᴀɪ ʙᴏᴛ²", url="https://t.me/daisyprobot")           
+                InlineKeyboardButton("Haniflix", url="https://t.me/ongoing_haniflix"),
+                InlineKeyboardButton("Javflix", url="https://t.me/+_klqs93gEstkYzk1")           
                 ],[
-                InlineKeyboardButton("sᴇʀɪᴇs ғʟɪx", url="https://t.me/seriesflix_original")
+                InlineKeyboardButton("Anime", url="https://t.me/animesilvervoid")
                 ],[
-                InlineKeyboardButton("ᴍᴏᴠɪᴇ ғʟɪx", url="https://t.me/movieflix_original")
+                InlineKeyboardButton("Movie", url="https://t.me/silvervoidmovie")
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data = "start")
@@ -102,7 +102,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("ᴏᴜʀ ʙᴏᴛꜱ", callback_data = "codeflix")
+                InlineKeyboardButton("Our Channels", callback_data = "codeflix")
                 ],[
                 InlineKeyboardButton("✗ Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("Developer", callback_data = "dev")
